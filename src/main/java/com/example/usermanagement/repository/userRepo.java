@@ -9,9 +9,9 @@ import java.util.List;
 @Repository
 public class userRepo {
     @Autowired
-    private static List<user> userList;
+    private  List<user> userList=new ArrayList<>();
 
-    public static List<user> getUsers() {
+    public  List<user> getUsers() {
         return userList;
     }
 
