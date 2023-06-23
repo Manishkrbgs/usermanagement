@@ -4,9 +4,7 @@ usermanagement
 * rg.springframework.boot
   * java
 ## functions used
-* @Service
-*  @Restcontroller
-* @NoArgsConstructor
-* @Data
-* @AllArgsConstructor
-* @Repository
+ * getAllUsers
+ * addUsers
+ * createUsers
+ * addUser
