@@ -12,7 +12,7 @@ public class UserService {
     @Autowired
     userRepo userrepo;
     public List<user> getAllUsers() {
-        return userRepo.getUsers();
+        return userrepo.getUsers();
     }
 
 
